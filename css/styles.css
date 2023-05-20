@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif
+}
+header{
+    background-color: blue;
+    padding: 20px;
+    margin: -1%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+header a:hover{
+    transition: 0.5s;
+    background-color: aqua;
+    margin: 10px;
+    padding: 21px;
+}
+div.inicio{
+    text-align: center;
+    margin: 5%;
+}
+div.inicio p{
+    margin: 5%;
+    padding: 20px;
+}
+div.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 5px;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px;
+}
+div.descripcion a#btn_cv{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 20px;
+    margin: 1%;
+}
+div.descripcion a#btn_cv:hover{
+    background-color: cyan;
+    transition: 0.5s;
+}
+div.descripcion a#btn_git{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 20px;
+    margin: 1%;
+}
+div.descripcion a#btn_git:hover{
+    background-color: cyan;
+    transition: 0.5s;
+}
+div.gustos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+    margin: 5px;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px;
+}
+div.tecnologias{
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+i{
+    padding: 6.9px;
+    color: blue;
+}
+span.material-symbols-outlined{
+    color: blue;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: inherit;
+    text-align: center;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+textarea{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 750px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    left: 340px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 1.5%;
+    margin: 10px;
+}
+button:hover{
+    background-color: cyan;
+    transition: 0.5s;
+}
+div.textos{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 200px;
+}
